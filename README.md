@@ -15,14 +15,27 @@
 
 solar-challenge-week1/
 +-- notebooks/
-¦   +-- benin_eda.ipynb
-¦   +-- sierra_leone_eda.ipynb
-¦   +-- togo_eda.ipynb
-¦   +-- compare_countries.ipynb
-+-- data/                   # Local only – 
+Â¦   +-- benin_eda.ipynb
+Â¦   +-- sierra_leone_eda.ipynb
+Â¦   +-- togo_eda.ipynb
+Â¦   +-- compare_countries.ipynb
++-- data/                   # Local only â€“ 
 +-- requirements.txt
 +-- README.md
 +-- .gitignore
 +-- .github/
     +-- workflows/
         +-- ci.yml
+
+## Streamlit Dashboard
+
+An interactive dashboard built with Streamlit for visualizing solar irradiance data.
+
+### Features:
+- Country selector (Benin, Togo, Sierra Leone)
+- Boxplot for GHI, DNI, DHI
+- Monthly average GHI chart
+- Summary stats table
+
+### Deployment:
+Access the live dashboard here https://solar-challenge-week1-doekx4fvgadf8zrwrdemwj.streamlit.app/
